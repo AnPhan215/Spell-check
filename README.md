@@ -33,9 +33,27 @@ TIME IN TOTAL:
 
 IMPLEMENTATION:
 
-Example:
+You can create your own dictionary in ```small``` in ```dictionaries``` folder
+
+Execution example:
 
 ```
 ./speller dictionaries/large texts/lalaland.txt
 ```
+
+And you could then run the staff’s solution on the same text in another window, as with the below.
+
+
+```
+./speller50 texts/lalaland.txt
+```
+
+And you could then compare the windows visually side by side. That could get tedious quickly, though. So you might instead want to “redirect” your program’s output to a file, as with the below.
+
+```
+$ ./speller texts/lalaland.txt > student.txt
+$ ./speller50 texts/lalaland.txt > staff.txt
+```
+
+
 
