@@ -36,6 +36,6 @@ IMPLEMENTATION:
 Example:
 
 ```
-./speller texts/lalaland.txt
+./speller dictionaries/large texts/lalaland.txt
 ```
 
